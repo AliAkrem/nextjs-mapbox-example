@@ -13,6 +13,7 @@ import {
   SheetContent,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import { ModeToggle } from "./toggle-scheme";
 
 
 export function DashboardComponent() {
@@ -21,6 +22,7 @@ export function DashboardComponent() {
   return (
     <div className="flex flex-col h-screen bg-gray-900 text-white">
       <header className="flex items-center justify-between p-4 bg-gray-800">
+
         <div className="text-2xl font-bold">MapBOX</div>
         <div className="hidden md:flex items-center space-x-4">
           <Input
